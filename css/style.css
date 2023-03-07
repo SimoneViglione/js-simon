@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', cursive;
+}
+
+body {
+    background-color: rgb(62, 0, 155);
+}
+
+.wrapper {
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    border-radius: 25px;
+    font-size: 3rem;
+    margin: 200px auto;
+}
+
+#numeriRandom {
+    padding-top: 100px;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-none {
+    display: none;
+}
